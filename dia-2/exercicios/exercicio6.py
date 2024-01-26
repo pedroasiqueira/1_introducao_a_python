@@ -26,5 +26,12 @@ def validate_email(email):
     index += 1
 
     # validar extensão
+    counter = 0
+    while index < len(email):
+        counter += 1
+        index += 1
+
+    if counter > 3:
+        raise ValueError('Extension maximum length is 3')
 
     return None
