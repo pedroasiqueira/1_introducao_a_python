@@ -16,6 +16,14 @@ def validate_email(email):
     index += 1
 
     # validar website
+    while email[index] != '.' and index < len(email):
+        letter = email[index]
+        if not letter.isalpha() and not letter.isdigit():
+            raise ValueError(
+                'Website should contains only letters, and digits'
+            )
+        index += 1
+    index += 1
 
     # validar extensão
 

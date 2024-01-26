@@ -32,3 +32,23 @@ def test_username_when_dont_start_with_letter_raise_exception():
 def test_username_is_invalid_raise_exception():
     with pytest.raises(ValueError):
         validate_email("a%a@nomewebsite.ext")
+
+
+# WEBSITE TEST
+        
+def test_website_contain_only_letters_and_digits():
+    assert validate_email('abc@website123.com') is None
+        
+def test_website_invalid_chars_raise_exception():
+    with pytest.raises(ValueError):
+        validate_email("abc@website!123.com")
+        
+
+# EXTENSION TEST
+        
+def test_extension_should_contain_only_three_chars():
+    assert validate_email('abc@website123.com') is None
+        
+def test_extension_invalid_chars_raise_exception():
+    with pytest.raises(ValueError):
+        validate_email("abc@website123.pyth")
