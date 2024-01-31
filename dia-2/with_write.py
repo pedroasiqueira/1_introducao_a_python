@@ -1,4 +1,4 @@
-with open("teste-gerenciador-de-contexto.txt", "w") as file:
+with open("dia-2/with-arqCriados/with-write.txt", "w") as file:
     file.write("nome idade\n")
 
     file.write("Maria 45\n")
@@ -15,3 +15,12 @@ with open("teste-gerenciador-de-contexto.txt", "w") as file:
     file.writelines(LINES)
 
 # Várias formas de se escrever
+    
+#lendo o arquivo criado acima
+with open("dia-2/with-arqCriados/with-write.txt", "r") as file:
+    content = file.read()
+    print(content)
+
+with open("dia-2/with-arqCriados/with-write.txt", "r") as file:
+    for line in file:
+        print(line)

@@ -16,3 +16,4 @@ mais_comuns = counter.most_common() #recebe dicionário, retorna uma lista orden
 
 numero, vezes_que_repete = mais_comuns[0]
 print(f"O número mais comum é {numero} e ele se repete {vezes_que_repete} vezes")
+print(Counter(lista_de_numeros).most_common()[0])

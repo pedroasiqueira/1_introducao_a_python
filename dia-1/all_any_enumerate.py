@@ -19,14 +19,14 @@ for index, players in enumerate(great_chest_players_ranking, start=1):
 print(refa)
 
 
-# nomes_1 = ["Felps", "Carlos", "Will", "Bux"]
-# nomes_2 = ["Flávio", "Carlos", "Roni", ""]
+nomes_1 = ["Felps", "Carlos", "Will", "Bux"]
+nomes_2 = ["Flávio", "Carlos", "Roni", ""]
 
-# all(nomes_1)  # Saída: True
-# all(nomes_2)  # Saída: False
+print(all(nomes_1))  # Saída: True
+print(all(nomes_2))  # Saída: False
 
-# any(nomes_1)  # Saída: True
-# any(nomes_2)  # Saída: True
+print(any(nomes_1))  # Saída: True
+print(any(nomes_2))  # Saída: True
 
 # for item in enumerate(nomes_1):
 #     print(item)

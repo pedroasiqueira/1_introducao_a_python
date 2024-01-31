@@ -1,5 +1,5 @@
 try:
-    with open("meus-personagens.txt", "r") as file:
+    with open("dia-2/with-arqCriados/meus-personagens.txt", "r") as file:
         print(file.read())
 except FileNotFoundError:
     # será executado caso haja a exceção 'FileNotFoundError'

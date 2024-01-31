@@ -2,6 +2,10 @@ a, b = "cd"
 print(a)  # saída: c
 print(b)  # saída: d
 
+teste, teste1 = 'ef', 'g'
+print(teste)
+print(teste1)
+
 head, *tail = (
     1,
     2,

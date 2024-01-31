@@ -1,4 +1,4 @@
-characters_file = open("meus-personagens.txt", mode="w")
+characters_file = open("dia-2/with-arqCriados/meus-personagens.txt", mode="w")
 
 characters_file.write("Naruto\n")
 characters_file.write("Sasuke\n")
