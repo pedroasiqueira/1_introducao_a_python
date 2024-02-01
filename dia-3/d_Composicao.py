@@ -19,3 +19,5 @@ pessoa_cozinheira.comprar_liquidificador(liquidificador_vermelho)
 
 print(pessoa_cozinheira)
 print(pessoa_cozinheira.liquidificador)
+
+# COMPOSIÇÃO é quando classes se relacionam entre sim mesmo sendo classes independentes
